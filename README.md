@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [elasticsearch-HQ](http://www.elastic
 
 ### Base Docker Image
 
-* [dockerfile/elasticsearch](http://dockerfile.github.io/#/elasticsearch)
+* [elasticsearch](https://hub.docker.com/_/elasticsearch/)
 
 
 ### Installation
@@ -20,6 +20,6 @@ This repository contains **Dockerfile** of [elasticsearch-HQ](http://www.elastic
 
 ### Usage
 
-    docker run -d -p 9200:9200 -p 9300:9300 igortimoshenko/docker-elasticsearch-hq
+    docker run -d -p 9200:9200 igortimoshenko/docker-elasticsearch-hq
 
 After few seconds, open `http://<host>:9200/_plugin/HQ` to see the result.
