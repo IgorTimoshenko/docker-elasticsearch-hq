@@ -1,3 +1,3 @@
-FROM elasticsearch:1.5.2
+FROM elasticsearch
 
 RUN /usr/share/elasticsearch/bin/plugin -install royrusso/elasticsearch-HQ
